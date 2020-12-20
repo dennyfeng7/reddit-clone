@@ -1,0 +1,23 @@
+{
+  "name": "reddit-clone",
+  "version": "1.0.0",
+  "description": "Reddit Clone made with React, GraphQL, TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennyfeng7/reddit-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennyfeng7/reddit-clone/issues"
+  },
+  "homepage": "https://github.com/dennyfeng7/reddit-clone#readme",
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
