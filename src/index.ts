@@ -11,6 +11,11 @@ const main = async () => {
     });
 
     const post = orm.em.create(Post, {title: 'My First Post'});
-}
+    await orm.em.persistAndFlush(post);
+    console.log('-------sql2----------')
+    await orm.em.nativeInsert(Post, {title: 'my first post 2'})
+};
 
-main();
+main().catch((err) => {
+    console.error(err);
+});
